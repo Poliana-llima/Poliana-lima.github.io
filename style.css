@@ -46,5 +46,57 @@ footer a{
     color:white;
     background-color:darkcyan;
     font-family: Arial, Helvetica, sans-serif;
+    width: 63%;
+    padding: 10px;
  
+}
+.texto{
+    color: gray;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    width: 350px;
+    height: 100px;
+    background-color: #9370db;
+    top: 50%; 
+    margin-top: -50px;
+    left: 40%;
+    margin-left: -100px;
+    padding-left: 50px;  
+
+}
+.modal a{
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+/*Não funcionou, ele inseriu dentro do mesmo usado para o formulário*/
+/* Procurar na aula*/
+
+.metade{
+    width: 50%;
+    float: left;
+    line-height: 150%;
+    color: rgb(247, 242, 242);
+}
+.metade div, .metade address{
+    margin-left: 20px;
+}
+
+.metade form{
+    line-height: 250%;
+}
+
+.modal input [type=text], textarea, .modal input[type=text]{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 63%;
+    background-color: #fafafa;
+    padding: 10px;
 }
