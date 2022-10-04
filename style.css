@@ -25,6 +25,8 @@ header img{
 }
 .center {
     text-align: center;
+    border-radius: 50%;
+   
 }
 footer img{
     width: 25px;
